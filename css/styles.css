@@ -49,7 +49,7 @@ h1 {
 button {
   margin: 6px;
   border: 1px solid transparent;
-  padding: .5rem 1rem;
+  padding: .75rem 1rem;
   color: var(--color-keys);
   font-size: var(--font-size-medium);
   background-color: var(--color-keys-light);
@@ -58,6 +58,20 @@ button {
   -o-transition: var(--transition);
   transition: var(--transition);
   cursor: pointer;
+}
+
+.keycol {
+    margin: 3px;
+    padding: .25rem .15rem .5rem;
+    background-color: #a5b4bb;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.key-pressed {
+    padding: 0rem;
 }
 
 #btn__reset {
@@ -135,11 +149,13 @@ button {
   border-radius: 5px;
   font-size: var(--font-size-medium);
   color: #FFFFFF;
+  padding: 1rem 1.25rem;
 }
 
 .wrong {
   background: #f7a964;
   color: #FFFFFF;
+  padding: 1rem 1.25rem;
 }
 
 .btn__reset {
